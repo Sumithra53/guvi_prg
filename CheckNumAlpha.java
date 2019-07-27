@@ -9,7 +9,7 @@ public class CheckNumAlpha {
 			if(!Character.isDigit(c)){
 				flag=true;
 				break;
-				//System.out.println("yes numeric");
+			
 			}
 			
 		}
