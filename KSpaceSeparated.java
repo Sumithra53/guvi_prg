@@ -9,9 +9,10 @@ public class KSpaceSeparated {
 		String t="";
 		int k=sc.nextInt();
 		for(int i=0;i<s.length()-1;i++){
-			 t+=s.substring(i,i+k)+" ";
+			if((i+k)<=s.length()){
+			System.out.print(s.substring(i,i+k)+" ");
+			}
 		}
-		System.out.println(t);
 	}
 
 }
